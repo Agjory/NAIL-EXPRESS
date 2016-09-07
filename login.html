@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NAIL EXPRESS - Contact</title>
+  <title>NAIL EXPRESS - Login</title>
 <!--
 Holiday Template
 http://www.templatemo.com/tm-475-holiday
@@ -15,6 +15,7 @@ http://www.templatemo.com/tm-475-holiday
   <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/templatemo-style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/loginstyle.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,88 +43,42 @@ http://www.templatemo.com/tm-475-holiday
 							<li><a href="about.html">關於</a></li>
 							<li><a href="callout.html">預約到府</a></li>
               <li><a href="book.html">預約到店</a></li>
-							<li><a href="login.html">會員登入</a></li>
-              <li><a href="contact.html" class="active">訪客留言</a></li>
+							<li><a href="login.html" class="active">會員登入</a></li>
+              <li><a href="contact.html">訪客留言</a></li>
 						</ul>
 					</nav>
-	  			</div>
-  			</div>
-  		</div>
-  	</div>
-
-	<!-- gray bg -->
-	<section class="container tm-home-section-1" id="more">
-		<div class="row">
-			<!-- slider -->
-			<div class="flexslider effect2 effect2-contact tm-contact-box-1">
-				<ul class="slides">
-					<li>
-						<img src="img/world-map.png" alt="image" class="contact-image" />
-						<div class="contact-text">
-							<h2 class="slider-title">常見問題</h2>
-							<h3 class="slider-subtitle">如何保障安全？</h3>
-							<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>
-                            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
-							<div class="slider-social">
-								<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-								<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-								<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-								<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-
-  <!-- white bg -->
-	<section class="section-padding-bottom">
-		<div class="container">
-			<div class="row">
-				<div class="tm-section-header section-margin-top">
-					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">聯絡我們</h2></div>
-					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
 				</div>
 			</div>
-			<div class="row">
-				<!-- contact form -->
-				<form action="#" method="post" class="tm-contact-form">
-					<div class="col-lg-6 col-md-6">
-						<div id="google-map"></div>
-						<div class="contact-social">
-							<a href="#" class="tm-social-icon tm-social-facebook"><i class="fa fa-facebook"></i></a>
-				      		<a href="#" class="tm-social-icon tm-social-dribbble"><i class="fa fa-dribbble"></i></a>
-				      		<a href="#" class="tm-social-icon tm-social-twitter"><i class="fa fa-twitter"></i></a>
-				      		<a href="#" class="tm-social-icon tm-social-instagram"><i class="fa fa-instagram"></i></a>
-				      		<a href="#" class="tm-social-icon tm-social-google-plus"><i class="fa fa-google-plus"></i></a>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 tm-contact-form-input">
-						<div class="form-group">
-							<input type="text" id="contact_name" class="form-control" placeholder="姓名" />
-						</div>
-						<div class="form-group">
-							<input type="email" id="contact_email" class="form-control" placeholder="EMAIL" />
-						</div>
-            <div class="form-group">
-							<input type="text" id="contact_phone" class="form-control" placeholder="聯絡電話" />
-						</div>
-						<div class="form-group">
-							<input type="text" id="contact_subject" class="form-control" placeholder="主題" />
-						</div>
-						<div class="form-group">
-							<textarea id="contact_message" class="form-control" rows="6" placeholder="內容"></textarea>
-						</div>
-						<div class="form-group">
-							<button class="tm-submit-btn" type="submit" name="submit">送出</button>
-						</div>
-					</div>
-				</form>
-			</div>
 		</div>
-	</section>
+	</div>
+
+<!-- login section -->
+<section class="login-wrapper">
+	<div id="wrapper">
+	<div class="join">會員登入</div>
+			<div class="lock"></div>
+					<div class="clr"></div>
+						<div class="login-options">選擇下列社群網站登入</div>
+									<a class="twitter" href="#">Twitter</a>
+										<a class="facebook" href="#">Facebook</a>
+										<a class="google" href="#">Google+</a>
+										<div class="clr"><hr /></div>
+												<div class="mail-text">或使用email登入</div>
+																<div class="forms">
+																		<form action="" method="get" name="register">
+																		<input name="fullname" type="text" value="-- 請輸入姓名 --" size="40" onClick="border: 1px solid #30a8da;" id="username"/>
+																		<input name="email" type="text" value="-- 請輸入email信箱 --" size="40" onClick="border: 1px solid #30a8da;" id="mail"/>
+																		<input name="password" type="password" value="-- 請輸入密碼 --" size="40" onClick="border: 1px solid #30a8da;" id="password"/><br>
+																		<button name="user-submit" type="submit" id="login-user-submit">會員登入</button>
+																		<button name="specialist-submit" type="submit" id="login-specialist-submit">美甲店/美甲師登入</button>
+																		</form>
+																		</div>
+									 <a class="forget-pw" href="#">忘記密碼?</a><br>
+						<a class="create-acc" href="#">註冊會員</a>
+            <a class="create-acc" href="#">新店/新秀進駐</a>
+	</div>
+</section>
+
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
